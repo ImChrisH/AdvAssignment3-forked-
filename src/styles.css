@@ -1,0 +1,108 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+
+body {
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+  background: rgb(136, 210, 231);
+  background: linear-gradient(
+    90deg,
+    rgba(136, 210, 231, 1) 0%,
+    rgba(93, 82, 85, 1) 0%,
+    rgba(11, 126, 21, 1) 0%,
+    rgba(93, 82, 85, 1) 0%,
+    rgba(103, 78, 94, 1) 0%,
+    rgba(95, 241, 91, 0.7047151624321604) 0%,
+    rgba(102, 108, 93, 1) 0%,
+    rgba(103, 78, 94, 1) 100%,
+    rgba(165, 164, 165, 0.7635386918439251) 100%,
+    rgba(110, 75, 101, 1) 100%,
+    rgba(7, 160, 113, 1) 100%,
+    rgba(0, 212, 255, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.cardWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.cStyle {
+  padding: 2%;
+  margin: 1%;
+  background-color: rgba(163, 163, 163, 0.505);
+  border-radius: 20px;
+  color: white;
+  text-shadow: 1.3px 1.3px black;
+  box-shadow: 1px 1px 1px black;
+}
+
+.navbar {
+  margin: auto;
+  margin-top: 3%;
+  padding: 1%;
+  font-size: 20px;
+  background-color: grey;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.navlink {
+  /* padding: 1.5%; */
+  margin-left: 20px;
+  margin-right: 20px;
+  text-shadow: 1px 1px black;
+}
+
+.empH {
+  background-color: rgba(161, 161, 161, 0.458);
+  color: white;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  padding: 1%;
+  text-shadow: 1.3px 1.3px black;
+  box-shadow: 1px 1px 1px black;
+}
+
+h6 {
+  font-style: italic;
+  font-size: 15px;
+  color: grey;
+  text-shadow: 0.5px 0.5px black;
+}
+
+.tableWrap {
+  color: white;
+  /* border: 3px solid white; */
+  margin-top: 3%;
+}
+
+table {
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.521);
+}
+
+th {
+  color: white;
+  font-size: 25px;
+  border: 3px solid rgba(255, 255, 255, 0.466);
+  text-shadow: 1.3px 1.3px black;
+  /* border-radius: 10px; */
+}
+td {
+  color: white;
+  border: 3px solid rgba(255, 255, 255, 0.418);
+  text-shadow: 1.2px 1.2px black;
+  font-size: 20px;
+  width: 20%;
+}
